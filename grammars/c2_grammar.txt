@@ -1,0 +1,23 @@
+LYRIC -> My sweet <nickname @nickname> <phrase>. My heart is full because <phrase>. <@nickname> you are my greatest <noun>, my most <adj> <noun2>. What can I do without you my most <adj> <@nickname>?
+
+INDIRECT_REFERENCE -> My full name is <full_name>, but you can call me <@first_name>.
+
+full_name -> <first_name @first_name> <last_name @last_name>
+
+ACT1 -> If a <prop @prop> is introduced in the first act, it should be used in the second act.
+
+ACT2 -> The <@prop> is used indeed!
+
+INTRO -> Hi my name is <@name> and my ID is <@ID>. I currently live in <@dorm>.
+
+prop -> curtain|train track|phantom mask|fan|crown
+
+first_name -> Yemi|Dawn|Danny|Frizzy
+last_name -> Shin|Kim|Park|Lee
+
+nickname ->$love_languages.txt
+phrase ->you are the reason I <verb_phrase>|you are the only one I <verb_phrase>|you make me <adj>
+noun ->joy|love|happiness|fulfillment
+adj ->beloved|sought after|cherished|prized|radiant
+noun2 ->jewel|flower|morning|charm
+verb_phrase ->live for|love|breathe for|wake up in the morning for|sing for

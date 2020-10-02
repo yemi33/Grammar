@@ -1,0 +1,37 @@
+GAME -><Start> <Procedure> <Win>
+
+Start -> <Multiplayer>|<Twoplayer>
+
+Procedure -> <Hard>|<Intermediate>|<Easy>
+
+Win -> <TotalTime>|<LeastAmountofClicks>
+
+Multiplayer ->This is a multiplayer game of Wikipedia Search. Everyone starts on '<page @start_page>' page. Your goal is to get to '<page @final_page>' page. <google> Every player born on a <day> can cash in a chance once per game to swap current pages with an opponent of their choosing.
+
+Twoplayer ->This is a two-player game of Wikipedia Search. P1 is the <order> person (% people in the room) in the perspective of James' Zoom screen and P2 is the <num>th person. P1 starts on '<page @page1>' page and P2 starts on '<page @page2>' page. Your goal is to get to '<page @final_page>' page. In a large group meeting the participants are shuffled into 2 team breakout rooms such that the designated players can share their screens with their teams. Teammates are allowed to talk but no Google searching!
+
+Hard ->The amount of clicks that are allowed is <hard_limit @click_limit>. If all of the players are not able to get to the page within this limit, Ctrl + f and find '<Random @random_condition>'. Whoever has more '<@random_condition>' on their current page, wins. 
+
+Intermediate ->The amount of clicks that are allowed is <intermediate_limit @click_limit>. If all of the players are not able to get to the page within this limit, Ctrl + f and find '<Random @random_condition>'. Whoever has more '<@random_condition>' on their current page, wins. 
+
+Easy ->The amount of clicks that are allowed is <easy_limit @click_limit>. If all of the players are not able to get to the page within this limit, Ctrl + f to find '<Random @random_condition>'. Whoever has more '<@random_condition>' on their current page, wins.  
+
+TotalTime -> When a player finds '<@final_page>' page faster than the other player, the player wins. 
+
+LeastAmountofClicks -> When the player/team finds '<@final_page>' page in <@click_limit> clicks earlier than the other player/team, the player wins. 
+
+
+page ->  $wrestlers.txt|$animals.txt|$fruits.txt|$instruments.txt|$objects.txt|$metals.txt|$us_cities.txt|$seas.txt
+
+Random -> X|Y|Z|J|K|Q
+
+day -> Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|holiday
+
+num -> 0|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+hard_limit -> 8|9||10
+intermediate_limit -> 15|16|17|18|16|17|18|9|20
+easy_limit -> 22|23|24|25|26|27
+
+google -> To determine the exact article, use the first result from searching on the Wikipedia homepage.
+
+order -> <num>th |1st|2nd|3rd
