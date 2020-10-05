@@ -154,7 +154,7 @@ FINALE -> And just like that, <@BOY> felt bubbles in his stomach for sleeping wh
 AGREE ->We got this.|Let's get this party started.
 RIGHTWAY? ->Are you sure we're going in the right direction?|Check the map. Is this the right way?|Yo, keep an eye out for the exit. We might get lost.
 CONFIRMATION ->Yes I am sure. I checked the <NAVIGATION @NAVIGATION>.|Yep. According to the <NAVIGATION @NAVIGATION> it is.
-NAVIGATION -> Hogwarts map|Ghost Club|Carleton handbook
+NAVIGATION -> Hogwarts map|Ghost Club guidebook|Carleton handbook
 SCARE ->Rrrr!|Did you just hear that?|I just heard something.|What was that?
 SHOCK->Ahhhhh! Why are you like this, huh?|Are you serious? You scared the heck out of me.|What are you, a kid? Get outta here.
 WAY ->basement|heating room|secret pathway to the deserted art hall|tunnel to the underworld
@@ -164,7 +164,7 @@ WARNING -> Please don't touch that.|Please don't do anything with that.|Put it d
 WORRIED -> I'm still not sure...|We'll get in big trouble..|Can we please leave?|That's it. We're leaving.
 OBJECT -> wizard's stone|cracked screen cell phone|broken shampoo bottle|surgical mask|dirty silverware
 ASSURANCE -> Just keep calm, and follow my lead.|Don't panic. Breathe. It will be alright.|I got you, you're not alone in this, okay?
-GHOST -> Ghost of Carleton Past|Ghost of Senior COMPS|Ghost of sophomorphosis|Phantom of SynchronyII
+GHOST -> GHOST OF CARLETON PAST|GHOST OF SENIOR COMPS|GHOST OF SOPHOMORPHOSIS|PHANTOM OF SYNCHRONYII
 ASKINGOUT -> Would you like to have dinner with me sometime?|I really like you.|I always felt like there was a part of me telling me you were the one.|I think it's time we become something more than just friends.
 REPLY -> What is this, a Halloween prank?|Why..I felt the same way. I was going to ask you the same thing when you saved me from the <@OBJECT>.|(kisses <@BOY> on the cheek)|Are you serious? Of course!|Wait..you're onto something.|I'm not gonna give you my candy just because you say that.|I'm sorry..I like someone else.
 SOMETHING -> candles|lightbulbs|fairy lights|desk lamps|birthday candles|Yankee candles
