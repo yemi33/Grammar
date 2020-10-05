@@ -1,0 +1,179 @@
+INTRO -><GIRL_NAME @GIRL> and <BOY_NAME @BOY> are good friends. For Halloween, they decide to explore <BUILDING @BUILDING>, which is said to be haunted.
+
+GIRL_NAME ->MIlEY|ARIANA|KATY|CARDI|JESSIE|JENNIE|BONNIE
+BOY_NAME ->JACK|PETER|ADRIAN|ROB|JEFF|JOHN|ANDY|CLYDE
+
+SCREENPLAY -><SCENE1>\n_______________\n<SCENE2>\n_______________\n<SCENE3>\n_______________\n<SCENE4>\n_______________\n<SCENE5>\n_______________\n<SCENE6>
+
+SCENE1 -><1_SCENE_HEADING>\n<1_CONTENT>
+SCENE2 -><2_SCENE_HEADING>\n<2_CONTENT>
+SCENE3 -><3_SCENE_HEADING>\n<3_CONTENT>
+SCENE4 -><4_SCENE_HEADING>\n<4_CONTENT>
+SCENE5 -><5_SCENE_HEADING>\n<5_CONTENT>
+SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
+
+1_SCENE_HEADING ->SCENE1\nEXT OUTSIDE <@BUILDING> - AFTERNOON
+2_SCENE_HEADING ->SCENE2\nINT <@WAY1> - NIGHT
+3_SCENE_HEADING ->SCENE3\nINT SECRET PASSAGEWAY MARKED BY <SOMETHING @SOMETHING> - NIGHT
+4_SCENE_HEADING ->SCENE4\nINT SECRET ROOM IN THE BASEMENT OF <@BUILDING> - NIGHT
+5_SCENE_HEADING ->SCENE5\nINT INSIDE THE DOOR THAT SMELLS LIKE <@SMELL> - NIGHT
+6_SCENE_HEADING ->SCENE6\nEXT OUTSIDE <@BUILDING> - NIGHT
+
+1_CONTENT -><1_BEGINNING>\n<1_MIDDLE>\n<1_END>
+2_CONTENT -><2_BEGINNING>\n<2_MIDDLE>\n<2_END>
+3_CONTENT -><3_BEGINNING>\n<3_MIDDLE>\n<3_END>
+4_CONTENT -><4_BEGINNING>\n<4_MIDDLE>\n<4_END>
+5_CONTENT -><5_BEGINNING>\n<5_MIDDLE>\n<5_END>
+6_CONTENT -><6_BEGINNING>\n<6_MIDDLE>\n<6_END>
+
+
+
+#Scene 1: Girl and Boy enters the building, they check if their navigation is secured. They follow through into way1. 
+
+1_BEGINNING -><1_ACTION>\n<1_INTRO_DIALOGUE>
+1_MIDDLE -><1_MIDDLE_DIALOGUE>
+1_END -><1_END_ACTION>\n<1_END_DIALOGUE>
+
+1_ACTION -><@GIRL> and <@BOY> stealthily make their way to the back of <@BUILDING>.\n
+
+1_INTRO_DIALOGUE -><@BOY>\nAre you ready for this?\n\n<@GIRL>\n<AGREE>\n\n<@BOY>\nAlright, here we go.\n
+
+1_MIDDLE_DIALOGUE -><@BOY>\n<RIGHTWAY?>\n\n<@GIRL>\n<CONFIRMATION>\n\n<@BOY>\n<@NAVIGATION>, really?\n\n<@GIRL>\nJust keep walking!\n 
+
+1_END_ACTION -><@GIRL> and <@BOY> walks towards the <WAY @WAY1>.\n
+
+1_END_DIALOGUE -><@BOY>\n<SCARE>\n\n<@GIRL>\n<SHOCK>
+
+
+
+#Scene 2: Girl and Boy enter the pathway, and end up touching something they shouldn't have. 
+
+2_BEGINNING ->\n<2_ACTION>\n<2_INTRO_DIALOGUE>
+2_MIDDLE -><2_MIDDLE_DIALOGUE>
+2_END -><2_END_ACTION>\n<2_END_DIALOGUE>
+
+2_ACTION -><@BOY> and <@GIRL> decide to explore <@WAY1> which is hidden under <@BUILDING>. They spot something.\n
+
+2_INTRO_DIALOGUE -><@BOY>\nBoy...why haven't we seen this before? Carleton should bring THIS up during NSW.\n\n<@GIRL>\nShh!! What is that?\n\n<@BOY>\nIt's a <OBJECT @OBJECT>!\n\n<@GIRL>\n<EXPLORE>.\n 
+
+2_MIDDLE_DIALOGUE -><@BOY>\nbruhh..this is so cool. What is a <@OBJECT> doing down here?\n\n<@GIRL>\nI have no idea..hey! I see a <OBJECT @OBJECT2> too!\n\n<@BOY>\n<APPREHENSION>\n
+
+2_END_ACTION -> <@GIRL> fidgets with the <@OBJECT>. <@BOY> looks around to see if there's anything else.\n
+
+2_END_DIALOGUE -> <@GIRL>\nHey, do you see that? \n\n<@BOY>\nWhat?\n\n<@GIRL>\n<@OBJECT> is glowing...or shall I say, burning?\n\n<@BOY>\n<WARNING>\n\n<@GIRL>\nDon't be a coward; we got this.\n\n<@BOY>\n<WORRIED>...\n\n<@GIRL>\nBut I already touched it! Hehe. Oh wait. Something's wrong.\n\n<@BOY> and <@GIRL>\nAhhhh!!
+
+
+
+
+#Scene 3: Boy and Girl enter into another dimension, and something goes terribly wrong.
+
+3_BEGINNING -><3_ACTION>\n<3_INTRO_DIALOGUE>\n<3_ACTION2>
+3_MIDDLE -><3_MIDDLE_DIALOGUE>\n<3_MIDDLE_ACTION>
+3_END -><3_END_DIALOGUE>\n<3_END_SOUND>
+
+3_ACTION ->\n<@BOY> and <@GIRL> feel themselves gently landing on the ground.\n
+
+3_INTRO_DIALOGUE -><@BOY>\nOkay, where the heck are we??I told you we should have left <@OBJECT> alone!!\n\n<@GIRL>\nShh!! We'll be fine, <@BOY>. <ASSURANCE>.\n\n<@BOY>\nIf we get outta here, that is, make it out alive, I just want to say...I..well..I sort of..I felt.. \n\n<@GIRL>\nLook! Come this way!\n\n<@BOY>\nAnd..nevermind.
+
+3_ACTION2 ->\n<@GIRL> walks into a secret passage, marked by <@SOMETHING>?\n
+
+3_MIDDLE_DIALOGUE -><@BOY>\nOkay so, just to be sure I'm getting this right. We're still in <@BUILDING>, correct?\n\n<@GIRL>\nMaybe. maybe not. Who cares? Hey what is that?\n\n<@BOY>\nMy mom?\n\n<@GIRL>\nAww come'on, <MISCHEVIOUS>.\n 
+
+3_MIDDLE_ACTION -> <@GIRL> points at a door. The door is rusty, with a faint smell of..shall I say, <SMELL @SMELL>?\n
+
+3_END_DIALOGUE -> <@GIRL>\nHey, do you see that?\n\n<@BOY>\nWhat?\n\n<@GIRL>\nThere is a door..and I don't know why, but I feel like it's calling out to me.\n\n<@BOY>\nOh no nono, You're not doing that.\n\n<@GIRL>\nIt's calling out to me..\n\n<@BOY>\n<WORRIED>\n\n<@GIRL>\nOkay fine. Let's go back. I just realized Halloween doesn't stop professors from assigning us homework.. and that I have a paper due on Wednesday.\n\n<@BOY>\nSee I told you. Let's slowly find our way back...
+
+3_END_SOUND -> THUD|PSHHHHHH|CHOMP|RUMBLE
+
+
+
+#Scene 4: Boy and Girl meet the ghost of Carleton Past.
+
+4_BEGINNING -><4_ACTION>\n<4_INTRO_DIALOGUE>
+4_MIDDLE -><4_MIDDLE_DIALOGUE>\n<4_MIDDLE_ACTION>
+4_END -><4_END_DIALOGUE>\n<4_END_ACTION>
+
+4_ACTION ->\n<@BOY> and <@GIRL> feel their bodies get paralyzed as they come face to face with the <GHOST @GHOST>.\n
+
+4_INTRO_DIALOGUE -><@GHOST>\nWhat are you two fools doing in here...DON'T YOU KNOW THIS IS FORBIDDEN GROUND?\n\n<@GIRL>\nWho are you?? And we want nothing from you. We're just..well..bored students.\n\n<@GHOST>\nI am the <@GHOST>. And I have been making sure Carleton is well taken care of since 2019.\n\n<@BOY>\n(mumbling to himself)\nOh. Well. That's rather recent.\n\n<@GHOST>\nQUIET!! I will not bare one more second of this nonsense.\n\n<@BOY>\nWell, okay. I guess then we should thank you, Mr. or Mrs., or should I say professor <@GHOST>?\n\n<@GHOST>\nGhosts don't have gender you fool! And don't call me professor!\n 
+
+4_MIDDLE_DIALOGUE -><@BOY>\nAlright well. I'll just call you by the first name then, like we do for most Carleton professors. Hey we just had one question. Where are we? We're still in <@BUILDING>, right?\n\n<@GHOST>\nYou are currently at the Rec.\n\n<@BOY>\nSay what now? Alright, now I'm leaving. Thanks for the direction, <@GHOST>. We'll get going now. <@GIRL>! Let's go now!\n
+
+4_MIDDLE_ACTION -> SILENCE.\n
+
+4_END_DIALOGUE -> <@BOY>\n<@GIRL>? <@GIRL>! Where are you??!! Hey!!\n
+
+4_END_ACTION -> <@BOY> sees, in the darkness, dimly lit by the light of the glowing <@OBJECT> <@GIRL> is holding, <@GIRL>, as if possessed, walking slowly into the door..remember that one? The one that smelled like <@SMELL>? 
+
+
+
+#Scene 5: Girl almost dies. Not really. Boy thinks he saved her.
+
+5_BEGINNING -><5_INTRO_DIALOGUE>\n<5_ACTION>
+5_MIDDLE -><5_MIDDLE_DIALOGUE>\n<5_MIDDLE_ACTION>
+5_END -><5_END_DIALOGUE>\n<5_END_SOUND>
+
+5_INTRO_DIALOGUE ->\n<@BOY>\nNO!!!!!!
+
+5_ACTION ->As the door is about to close, taking <@GIRL> with it, <@BOY> jumps into the gap like a <HERO>. He grabs her by the <BODY>, and turns her around.\n
+
+5_MIDDLE_DIALOGUE -><@BOY>\n<@GIRL>, are you mad? Are you out of your mind? You still have that paper due on Wednesday!\n\n<@GIRL>\nWho are you? And why are you telling me about assignments..it's Halloween...\n\n<@BOY>\nYou can't just give up like this! <ENCOURAGE> Wake up!!!\n\n<@GIRL>\nBut...I'm...I feel intoxicated..I'm...\n(faints)\n
+
+5_MIDDLE_ACTION -> <@BOY> notices the glowing <@OBJECT> glowing even brighter every time <@GIRL> would say atrocious things like not finishing her essay.\n  
+
+5_END_DIALOGUE -> <@BOY>\nThat's it. That thing is making you lose your mind. And you know what I'm gonnat do? I'm gonna break that!!!\n
+
+5_END_SOUND -> SMASH!|RIP!|CLANG!
+
+
+
+#Scene 6: Ending
+
+6_BEGINNING -><6_ACTION>\n<6_INTRO_DIALOGUE>
+6_MIDDLE -><6_MIDDLE_DIALOGUE>\n<6_MIDDLE_ACTION>
+6_END -><6_END_DIALOGUE>\n<6_END_SOUND>\n<6_END_ACTION>\n<6_END_DIALOGUE2>\n<FINALE>
+
+6_ACTION ->\n<@BOY> and <@GIRL> find themselves outside <@BUILDING>.\n 
+
+6_INTRO_DIALOGUE -><@BOY>\nWe're back..We're BACK!!\n\n<@GIRL>\nHuh...?\n\n<@BOY>\nWe're free!\n\n<@GIRL>\nWe're back? No way!\n
+
+6_MIDDLE_DIALOGUE -><@BOY>\n<@GIRL>, let's get back to our dorms. We had enough fun for today...\n\n<@GIRL>\nAlright..oh and also were you trying to tell me something back in there? You were trying to tell me something.\n
+
+6_MIDDLE_ACTION -> <@BOY> blushes.\n 
+
+6_END_DIALOGUE -> <@BOY>\nWell..I was going to say..I really..<ASKINGOUT>\n\n<@GIRL>\n<REPLY>\n
+
+6_END_SOUND -> ****ZAP!****\n 
+
+6_END_ACTION -> <@BOY> feels someone shaking him. His eyes slowly open. It's the library.\n
+
+6_END_DIALOGUE2 -> <@GIRL>\nYou good?\n\n<@BOY>\nWhat...\n\n<@GIRL>\nYou've been sleeping for two hours, man.\n
+
+FINALE -> And just like that, <@BOY> felt bubbles in his stomach for sleeping while being bent over the desk, on a spooky Halloween night.\n
+
+AGREE ->We got this.|Let's get this party started.
+RIGHTWAY? ->Are you sure we're going in the right direction?|Check the map. Is this the right way?|Yo, keep an eye out for the exit. We might get lost.
+CONFIRMATION ->Yes I am sure. I checked the <NAVIGATION @NAVIGATION>.|Yep. According to the <NAVIGATION @NAVIGATION> it is.
+NAVIGATION -> Hogwarts map|Ghost Club|Carleton handbook
+SCARE ->Rrrr!|Did you just hear that?|I just heard something.|What was that?
+SHOCK->Ahhhhh! Why are you like this, huh?|Are you serious? You scared the heck out of me.|What are you, a kid? Get outta here.
+WAY ->basement|heating room|secret pathway to the deserted art hall|tunnel to the underworld
+EXPLORE -> Let's get closer to it.|Let's go.|Wait for it, mama's coming for you.
+APPREHENSION -> You know, I'm starting to feel like this is more like a scavenger hunt than a haunted house tour?|You know, frankly, I'm not so sure if I'm scared.|This is...quite disappointing. Where are the ghosts? Wait..was I the only one who was seriously believing in that?
+WARNING -> Please don't touch that.|Please don't do anything with that.|Put it down...
+WORRIED -> I'm still not sure...|We'll get in big trouble..|Can we please leave?|That's it. We're leaving.
+OBJECT -> wizard's stone|cracked screen cell phone|broken shampoo bottle|surgical mask|dirty silverware
+ASSURANCE -> Just keep calm, and follow my lead.|Don't panic. Breathe. It will be alright.|I got you, you're not alone in this, okay?
+GHOST -> Ghost of Carleton Past|Ghost of Senior COMPS|Ghost of sophomorphosis|Phantom of SynchronyII
+ASKINGOUT -> Would you like to have dinner with me sometime?|I really like you.|I always felt like there was a part of me telling me you were the one.|I think it's time we become something more than just friends.
+REPLY -> What is this, a Halloween prank?|Why..I felt the same way. I was going to ask you the same thing when you saved me from the <@OBJECT>.|(kisses <@BOY> on the cheek)|Are you serious? Of course!|Wait..you're onto something.|I'm not gonna give you my candy just because you say that.|I'm sorry..I like someone else.
+SOMETHING -> candles|lightbulbs|fairy lights|desk lamps|birthday candles|Yankee candles
+MISCHEVIOUS -> I think I found something interesting.|I think we stepped onto the real deal.|This is the start of something very fun.
+SMELL -> blood|candy|sugar|lavender|strawberry|peach|blood
+HERO -> Super Man|Iron Man|Captain America|Ant Man|Vision|Black Panther|Hulk
+BODY -> shoulders|arms|hair|wrist|waist
+ENCOURAGE ->There are still six more weeks...|Don't leave me here like this...|I'll give you answers to the problem sets for the rest of your Carleton career...|I promise I will shake you awake everytime in Mr.Robinson's class..|Ginger said she needs you for her senior COMPs film..you can't just die like this...
+BUILDING ->$carleton_buildings.txt
+TIME ->NIGHT|EVENING|AFTERNOON
+INEX ->INT|EXT
+

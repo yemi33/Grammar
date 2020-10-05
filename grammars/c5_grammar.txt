@@ -16,9 +16,9 @@ Intermediate ->The amount of clicks that are allowed is <intermediate_limit @cli
 
 Easy ->The amount of clicks that are allowed is <easy_limit @click_limit>. If all of the players are not able to get to the page within this limit, Ctrl + f to find '<Random @random_condition>'. Whoever has more '<@random_condition>' on their current page, wins.  
 
-TotalTime -> When a player finds '<@final_page>' page faster than the other player, the player wins. 
+TotalTime -> Otherwise, when a player finds '<@final_page>' page faster than the other player, the player wins. 
 
-LeastAmountofClicks -> When the player/team finds '<@final_page>' page in <@click_limit> clicks earlier than the other player/team, the player wins. 
+LeastAmountofClicks -> Otherwise, when the player finds '<@final_page>' page in <@click_limit> clicks earlier than the other player, the player wins. 
 
 
 page ->  $wrestlers.txt|$animals.txt|$fruits.txt|$instruments.txt|$objects.txt|$metals.txt|$us_cities.txt|$seas.txt

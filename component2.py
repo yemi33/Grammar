@@ -45,5 +45,3 @@ def grade():
     component2c()
     print("\n\n-- Component 2d -- ")
     component2d()
-
-grade()

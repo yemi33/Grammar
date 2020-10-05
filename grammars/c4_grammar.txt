@@ -1,4 +1,4 @@
-sentence -><short-sentence>|<long-sentence>
+sentence -><short-sentence>.|<long-sentence>.
 short-sentence -><subject> <verb-1> it|<subject> <verb-1> <some-objects>|<subject> <verb-2> <some-adjectives>
 long-sentence ->when <short-sentence>, <short-sentence>
 subject -><proper-noun>|<subject-pronoun>|<singular>|<singular> <preposition><singular>

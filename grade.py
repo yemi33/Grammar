@@ -7,9 +7,7 @@ import component7
 import component9
 import challenge1
 import challenge2
-import challenge3
-​
-​
+
 def grade():
     """Produce all the results associated with all the components.
     
@@ -18,11 +16,10 @@ def grade():
     """
     component1.grade()
     component2.grade()
-    component4.grade()
+    #component4.grade()
     component5.grade()
     component6.grade()
     component7.grade()
     component9.grade()
     challenge1.grade()
     challenge2.grade()
-    challenge3.grade()

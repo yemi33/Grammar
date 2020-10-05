@@ -1,4 +1,5 @@
 from engine import GrammarEngine
+from grade import grade
 
 
 def generate():
@@ -41,6 +42,4 @@ def state_usage_demo():
     # use this method
     engine.clear_state()
 
-
-
-state_usage_demo()
+grade()

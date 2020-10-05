@@ -43,4 +43,3 @@ def grade():
     print("\n\n-- Component 1d -- ")
     component1d()
 
-grade()
