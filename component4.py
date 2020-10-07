@@ -17,3 +17,4 @@ def grade():
     print("\n\n-- Component 4 -- ")
     component4()
 
+grade()

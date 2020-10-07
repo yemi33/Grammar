@@ -1,7 +1,7 @@
 sentence -><short-sentence>.|<long-sentence>.
 short-sentence -><subject> <verb-1> it|<subject> <verb-1> <some-objects>|<subject> <verb-2> <some-adjectives>
 long-sentence ->when <short-sentence>, <short-sentence>
-subject -><proper-noun>|<subject-pronoun>|<singular>|<singular> <preposition><singular>
+subject -><proper-noun>|<subject-pronoun>|<singular>|<singular> <preposition> <singular>
 proper-noun ->Engineer Small|Small
 subject-pronoun ->he|it
 singular -><consonant-noun>|<an-the-adjs> engine
@@ -13,10 +13,10 @@ adjective ->little|black|shiny|oiled|polished|heated|big
 some-adjectives -><adjective>|<adjective> <maybe-adjectives> and <adjective>
 a-an-adjective ->a little|a black|a shiny|an oiled|a polished|a heated|a big
 singular-adjs -><a-an-adjective> <maybe-adjectives>|the <adjective> <maybe-adjectives>|<possessive> <adjective> <maybe-adjectives>
-maybe-adjectives ->, <adjective> <maybe-adjectives>| 
+maybe-adjectives ->, <adjective> <maybe-adjectives>|
 a-the-adjs ->a|the|<possessive>|<singular-adjs>
 an-the-adjs ->an|the|<possessive>|<singular-adjs>
--the-adjs ->the|<possessive>|<singular-adjs>
+-the-adjs ->the|<possessive>|<singular-adjs>|
 verb-1 ->has|is|is proud of|makes
 verb-2 ->is|keeps <object>|keeps it
 possessive ->his|its
@@ -24,5 +24,5 @@ four-the-adjs ->the|<possessive>|four|the <some-adjectives> <possessive> <some-a
 plural-noun ->trains|engines|bells|whistles|sand-domes|headlights|smokestacks|driving wheels|fireboxes|boilers
 preposition ->under|in
 object -><proper-noun>|<singular>|<plural>|<singular> <preposition> <singular>
-maybe-objects ->, <object> <maybe-objects>
+maybe-objects ->, <object> <maybe-objects>|
 some-objects -><object>|<object> <maybe-objects> and <object>|<object> <maybe-objects> and <object>

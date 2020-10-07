@@ -40,7 +40,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 1_MIDDLE_DIALOGUE -><@BOY>\n<RIGHTWAY?>\n\n<@GIRL>\n<CONFIRMATION>\n\n<@BOY>\n<@NAVIGATION>, really?\n\n<@GIRL>\nJust keep walking!\n 
 
-1_END_ACTION -><@GIRL> and <@BOY> walks towards the <WAY @WAY1>.\n
+1_END_ACTION -><@GIRL> and <@BOY> walk towards the <WAY @WAY1>.\n
 
 1_END_DIALOGUE -><@BOY>\n<SCARE>\n\n<@GIRL>\n<SHOCK>
 
@@ -81,9 +81,9 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 3_MIDDLE_ACTION -> <@GIRL> points at a door. The door is rusty, with a faint smell of..shall I say, <SMELL @SMELL>?\n
 
-3_END_DIALOGUE -> <@GIRL>\nHey, do you see that?\n\n<@BOY>\nWhat?\n\n<@GIRL>\nThere is a door..and I don't know why, but I feel like it's calling out to me.\n\n<@BOY>\nOh no nono, You're not doing that.\n\n<@GIRL>\nIt's calling out to me..\n\n<@BOY>\n<WORRIED>\n\n<@GIRL>\nOkay fine. Let's go back. I just realized Halloween doesn't stop professors from assigning us homework.. and that I have a paper due on Wednesday.\n\n<@BOY>\nSee I told you. Let's slowly find our way back...
+3_END_DIALOGUE -> <@GIRL>\nHey, do you see that?\n\n<@BOY>\nWhat?\n\n<@GIRL>\nThere is a door..and I don't know why, but I feel like it's calling out to me.\n\n<@BOY>\nOh no nono, You're not doing that.\n\n<@GIRL>\nIt's calling out to me..\n\n<@BOY>\n<WORRIED>\n\n<@GIRL>\nOkay fine. Let's go back. I just realized Halloween doesn't stop professors from assigning us homework.. and that I have a paper due on Wednesday.\n\n<@BOY>\nSee I told you. Let's slowly find our way back...\n
 
-3_END_SOUND -> THUD|PSHHHHHH|CHOMP|RUMBLE
+3_END_SOUND -> *THUD*|*PSHHHHHH*|*CHOMP*|*RUMBLE*
 
 
 
@@ -113,7 +113,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 5_MIDDLE -><5_MIDDLE_DIALOGUE>\n<5_MIDDLE_ACTION>
 5_END -><5_END_DIALOGUE>\n<5_END_SOUND>
 
-5_INTRO_DIALOGUE ->\n<@BOY>\nNO!!!!!!
+5_INTRO_DIALOGUE ->\n<@BOY>\nNO!!!!!!\n
 
 5_ACTION ->As the door is about to close, taking <@GIRL> with it, <@BOY> jumps into the gap like a <HERO>. He grabs her by the <BODY>, and turns her around.\n
 
@@ -123,7 +123,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 5_END_DIALOGUE -> <@BOY>\nThat's it. That thing is making you lose your mind. And you know what I'm gonnat do? I'm gonna break that!!!\n
 
-5_END_SOUND -> SMASH!|RIP!|CLANG!
+5_END_SOUND -> *SMASH!*|*RIP!*|*CLANG!*
 
 
 
@@ -149,7 +149,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 6_END_DIALOGUE2 -> <@GIRL>\nYou good?\n\n<@BOY>\nWhat...\n\n<@GIRL>\nYou've been sleeping for two hours, man.\n
 
-FINALE -> And just like that, <@BOY> felt bubbles in his stomach for sleeping while being bent over the desk, on a spooky Halloween night.\n
+FINALE -> And just like that, <@BOY> felt bubbles in his stomach for sleeping while bending over the desk--quite the ending for a spooky Halloween night.\n
 
 AGREE ->We got this.|Let's get this party started.
 RIGHTWAY? ->Are you sure we're going in the right direction?|Check the map. Is this the right way?|Yo, keep an eye out for the exit. We might get lost.

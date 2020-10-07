@@ -1,5 +1,8 @@
+def numOutputs(file_name):
+  pass
+
 def supplementary_challenge1():
-    pass
+    
 
 def grade():
     """The function James will be using to grade your component."""
