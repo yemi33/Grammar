@@ -1,41 +1,57 @@
-NO_CORPUS -> <NOUN_PHRASE> <VERB_PHRASE>.
-NOUN_PHRASE -> <DET> <ADJ> <NOUN>
-NOUN_PHRASE -> <DET> <NOUN>
-VERB_PHRASE -> <VERB> <PREP>|<VERB>
+NO_CORPUS -><SINGULAR>|<PLURAL>
 
-YES_CORPUS -> <NOUN_PHRASE> <VERB_PHRASE> <NOUN_PHRASE>.
-NOUN_PHRASE -> <DET> <ADJ> <CORPUS_NOUN>|<ADJ> <CORPUS_NOUN>
-VERB_PHRASE -> <CORPUS_VERB> <PREP>|<CORPUS_VERB>
+SINGULAR -><SINGULAR_NOUN_PHRASE> <SINGULAR_VERB_PHRASE>.
 
-MY_CORPUS -> <BEGINNING> <MIDDLE> <ENDING> (makes use of:[bible_books.txt], [love_languages.txt], [carleton_buildings.txt]).
-BEGINNING -> <SIZE_ADJ> did <BIBLE_BOOK>
-MIDDLE -> <VERB> <LOVE_LANGUAGE> <PHRASE>|<ADV> <VERB>
-PHRASE -> <CARLETON_BUILDINGS>|purple bear|orange man|pink lady
-ENDING -> <NOUN> and no more.|<NOUN> and much more.
+PLURAL -><PLURAL_NOUN_PHRASE> <PLURAL_VERB_PHRASE>.
 
-PARAGRAPH -> <SENTENCE1> <SENTENCE2> <SENTENCE3> <SENTENCE4> 
+NOUN_PHRASE -><SINGULAR_NOUN_PHRASE>|<PLURAL_NOUN_PHRASE>
 
-SENTENCE1 -> Boy, is it hard to <VERB1>.
-SENTENCE2 -> I tried to <VERB1> but the <PHRASE> keeps stopping me.
-SENTENCE3 -> You know what, let's try <VERB2> instead and <PHRASE2>. 
-SENTENCE4 -> <ADJ> thinking. That is what we need. 
+SINGULAR_NOUN_PHRASE ->the <ADJ> <NOUN>|a <A-NOUN>|an <AN-NOUN>|not every <NOUN>
 
-VERB1 -> walk|talk|scream|party|bike|plunge|dive|slide|steal|snore
-PHRASE -> <ADJ> <NOUN>|<NOUN>
-VERB2 -> thinking|telling|tiptoeing|washing|waving|watching
-PHRASE2 -> <VERB1> | <ADV> <VERB1>
+SINGULAR_NOUN_PHRASE_CORPUS ->every <ADJ> <CORPUS_NOUN>|the <ADJ> <CORPUS_NOUN>
 
-DET -> the|a|every|an|not every|some|
-NOUN -> girl|moon|sun|doctor|planet|raindrop|clown|man|woman|person|city|rainbow
-CORPUS_NOUN -> $nouns.txt
-VERB -> <MOVEMENT_VERB>|<SPEECH_VERB>
-MOVEMENT_VERB -> walks|bikes|runs
-SPEECH_VERB -> screams|talks|says|whispers
-CORPUS_VERB -> $verbs_present.txt
-ADJ -> green|fast|orange|angry|happy|sad|$adjectives.txt
-PREP -> to|under|with|over|aside|around
-SIZE_ADJ -> little|a lot|more
-BIBLE_BOOK -> $bible_books.txt
-ADV -> $adverbs.txt
-LOVE_LANGUAGE -> $love_languages.txt
-CARLETON_BUILDINGS -> $carleton_buildings.txt
+PLURAL_NOUN_PHRASE ->the <ADJ> <PLURAL_NOUN>|<PLURAL_NOUN>
+
+SINGULAR_VERB_PHRASE -><SINGULAR_VERB> <PREP> <NOUN_PHRASE>|<SINGULAR_VERB>
+
+PLURAL_VERB_PHRASE -><VERB1> <PREP> <SINGULAR_NOUN_PHRASE>|<VERB1>
+
+YES_CORPUS -><SINGULAR_NOUN_PHRASE_CORPUS> <SINGULAR_VERB_PHRASE>.
+
+MY_CORPUS -><BEGINNING> <MIDDLE> <ENDING> (makes use of:[bible_books.txt], [love_languages.txt], [carleton_buildings.txt]).
+BEGINNING -><SIZE_ADJ> did <BIBLE_BOOK>
+MIDDLE -><VERB1> to the <LOVE_LANGUAGE> <PHRASE>|<ADV> <VERB1>
+PHRASE -><CARLETON_BUILDINGS>'s <NOUN>|purple bear's <NOUN>|orange man's <NOUN>|pink lady's <NOUN>
+ENDING ->and no more.|and much more.
+
+PARAGRAPH -><SENTENCE1> <SENTENCE2> <SENTENCE3> <SENTENCE4> 
+
+SENTENCE1 ->Boy, is it hard to <VERB1>.
+SENTENCE2 ->I tried to <VERB1> but the <PHRASE> keeps stopping me.
+SENTENCE3 ->You know what, let's try <VERB2> instead, and <PHRASE2>. 
+SENTENCE4 -><CAP_ADJ> thinking. That is what we need. 
+
+VERB1 ->walk|talk|scream|party|bike|plunge|dive|slide|steal|snore
+PHRASE -><ADJ> <NOUN>|<NOUN>
+VERB2 ->thinking|telling|tiptoeing|washing|waving|watching
+PHRASE2 -><VERB1>|<ADV> <VERB1>
+SINGULAR_VERB ->walks|talks|screams|parties|bikes|plunges|dives|slides|steals|snores
+
+DET ->the|a|every|an|not every|some|
+NOUN -><A-NOUN>|<AN-NOUN>
+A-NOUN ->girl|moon|sun|doctor|planet|raindrop|clown|man|woman|person|city|rainbow
+AN-NOUN ->icon|imagination|unbelief
+CORPUS_NOUN ->$nouns.txt
+PLURAL_NOUN ->girls|moons|suns|doctors|planets|raindrops|clowns|men|women|people|cities|rainbows
+VERB -><MOVEMENT_VERB>|<SPEECH_VERB>
+MOVEMENT_VERB ->walks|bikes|runs
+SPEECH_VERB ->screams|talks|says|whispers
+CORPUS_VERB ->$verbs_present.txt
+ADJ ->green|fast|orange|angry|happy|sad|$adjectives.txt
+CAP_ADJ ->Green|Fast|Orange|Angry|Happy|Sad
+PREP ->to|under|with|over|aside|around
+SIZE_ADJ ->little|a lot|more
+BIBLE_BOOK ->$bible_books.txt
+ADV ->$adverbs.txt
+LOVE_LANGUAGE ->$love_languages.txt
+CARLETON_BUILDINGS ->$carleton_buildings.txt

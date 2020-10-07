@@ -1,16 +1,28 @@
+#TABLE OF CONTENTS
+
+#1) SENTENCES
+#2) PHRASES
+#3) SUBJECT
+#4) ADJECTIVE
+#5) VERB
+#6) POSSESSIVE
+#7) NOUN
+#8) PREPOSITION
+#9) OBJECT
+#10) ADVERB
+#11) MISCELLANEOUS
+
+#CTRL +F IS YOUR BEST FRIEND
+
+
+#####(1)SENTENCES#####
 sentence -><short-sentence>.|<long-sentence>.|<combined-sentence>.|<what-question>.Q|<is-question>.Q|<not-sentence>.|<whom-question>.Q|<who-question>.Q|<doesn*t-question>.Q|<be-sentence>.|<or-question>.Q|<where-sentence>.|<either-sentence>.|<where-question>.Q
 
 short-sentence -><subject> <verb-1> it|<subject> <verb-1> <some-objects>|<subject> <verb-2> <some-adjectives>|the <some-adjectives> <singular-noun> <preposition> <object-pronoun> is <some-adjectives> <where>|The <singular-noun> is <adjective> <preposition> no <adjective> <plural-noun>|The <adjective> <singular-noun> <verb> <some-nouns>|<subject-pronoun> does <verb-plural> <object-pronoun>|<subject> is <adjective> there
 
 long-sentence ->when <short-sentence>, <short-sentence>|<subject-pronoun> <be> <adjective>, and <subject-pronoun> <be> <adj-phrase>|<subject-pronoun> <verb> <object-pronoun> <preposition> <adjective> <plural-noun>, <num-nouns> and <possessive> <singular-noun> <where>
 
-adj-phrase -><adjective>|<adjective> of <num-nouns>|full of <object-pronoun>|<adjective> and <adjective>|<adjectified-verb> of <possessive> <some-nouns> <preposition> the <num-nouns>, <num-nouns>|<adjective> <preposition> <num-nouns>
-
 combined-sentence -><subject-pronoun> is <adverb> <adjective>, and <subject-pronoun> is <adverb> <adjective>|<subject-pronoun> <adverb> <verb-1> <adjective> <plural-noun> and <plural-num-nouns>|<subject-pronoun> isn*t <adjective>, <subject-pronoun> is <adjective>, <a-an-adjective> <singular-noun> <adverb> <verb> the <singular-noun> and <prefix> <proper-noun>, and <prefix> <proper-noun> <verb> <num-nouns>
-
-adj-noun-prep -><some-adjectives> <singular-noun> <preposition> <adj-noun> 
-
-adj-noun -><singular-adjs> <singular-noun>|<num-nouns>
 
 is-question ->Is <subject-pronoun> <adjective>, <adjective>, and <adjective> <adverb>|Is <possessive> <adjective> <singular-noun> <adjective> <preposition> <plural-noun>|Isn*t <subject-pronoun> <adj-phrase>
 
@@ -20,21 +32,37 @@ doesn*t-question ->Doesn*t <subject-pronoun> <verb-plural> <noun-phrase>, or isn
 
 what-question ->What is <subject-pronoun> <adjective> for|What is the <singular-noun> <adjective> for|What does <subject-pronoun> <verb-plural> <noun-phrase> for|What does <uncountable> <verb-plural> <noun-phrase> for
 
-noun-phrase -> <num-nouns> <preposition> <adjective> <plural-noun>|<uncountable>  and <num-nouns> <preposition> <num-nouns>|<prefix> <proper-noun>|<singular-noun> and <combined-noun>|<object-pronoun>
+not-sentence ->Not even <preposition> it does it <verb-plural> <a-noun> <preposition> it|Not only <preposition> <noun> <singular-plural-noun-question-phrase> <adjective>
 
-not-sentence ->Not even <preposition> it does it <verb-plural> <a-noun> <preposition> it|Not only <preposition> <noun> is <noun> <adjective>
-
-whom-question ->Whom <verb> <subject-pronoun> <verb-plural>
+whom-question ->Whom does <subject-pronoun> <for-verb> for|Whom does <subject-pronoun> <not-for-verb>
 
 who-question ->Who <be> <adj-phrase>
 
-be-sentence -><subject-pronoun> <be> <adverb> <verb> of <noun>, and <noun> <be-adj-phrase>|<noun> isn*t <adjective>, <noun> isn*t <adjective>, <noun> isn*t <adjective>, <noun> isn*t <adjective>, nor does <noun> <verb-plural> <singular-noun>
-
-be-adj-phrase -> <be> <adjective>|<be> <some-adjectives>
+be-sentence -><subject-pronoun> is <adverb> <verb> of <noun>, and <noun> <be-adj-phrase>|<singular-noun> isn*t <adjective>, <singular-noun> isn*t <adjective>, <singular-noun> isn*t <adjective>, <singular-noun> isn*t <adjective>, nor does <singular-noun> <verb-plural> <singular-noun>|<some-nouns> aren't <adjective>, nor do <some-nouns> <verb-plural>.
 
 or-question ->Does <subject> <verb-plural> it, or doesn*t <subject> <verb-plural> it
 
 where-sentence -><where> <singular-plural-noun-phrase> <verb-plural> <object-pronoun>
+
+where-question ->Where <singular-plural-noun-question-phrase> <adjective>
+
+either-sentence -> <subject-pronoun> doesn*t <verb-plural> <complex-phrase> either|<subject-pronoun> is <adverb> <adjective>, <proper-noun> is <adverb> <adjective>, and <subject-pronoun> is <adverb> <some-adjectives> either|<subject-pronoun> <be> fond of <num-nouns>, and <subject-pronoun> is <adverb> <adjective> either
+
+prep-sentence -><preposition> <noun>, <noun> <be> <adjective>
+
+
+
+
+#####(2)PHRASES#####
+adj-phrase -><adjective>|<adjective> of <num-nouns>|full of <object-pronoun>|<adjective> and <adjective>|<adjectified-verb> of <possessive> <some-nouns> <preposition> the <num-nouns>, <num-nouns>|<adjective> <preposition> <num-nouns>
+
+adj-noun-prep -><some-adjectives> <singular-noun> <preposition> <adj-noun> 
+
+adj-noun -><singular-adjs> <singular-noun>|<num-nouns>
+
+noun-phrase -> <num-nouns> <preposition> <adjective> <plural-noun>|<uncountable>  and <num-nouns> <preposition> <num-nouns>|<prefix> <proper-noun>|<singular-noun> and <combined-noun>|<object-pronoun>
+
+be-adj-phrase -> <be> <adjective>|<be> <some-adjectives>
 
 singular-plural-noun-phrase -> <singular-noun-phrase>|<plural-noun-phrase>
 
@@ -48,22 +76,18 @@ singular-noun-question-phrase -> is <singular-noun>
 
 plural-noun-question-phrase -> are <num-nouns>
 
-where-question ->Where <singular-plural-noun-question-phrase> <adjective>
-
-either-sentence -> <subject-pronoun> doesn*t <verb-plural> <complex-phrase> either|<subject-pronoun> is <adverb> <adjective>, <proper-noun> is <adverb> <adjective>, and <subject-pronoun> is <adverb> <some-adjectives> either|<subject-pronoun> <be> fond of <num-nouns>, and <subject-pronoun> is <adverb> <adjective> either
-
 complex-phrase -><object-pronoun>, the <singular-noun> <preposition> <singular-noun> <adverb> <verb-1> <adj-noun-prep> and <singular-noun> <adjective> of <plural-noun>, and <adj-noun-prep> don*t <verb-plural> <possessive> <some-adjectives> <singular-noun> <some-adjectives>|<object-pronoun> <preposition> <possessive> <noun>, <subject-pronoun> <adverb> <verb> <combined-noun> and the <adjective> <singular-noun> <preposition> a <singular-noun>, <num-nouns>, and <subject-pronoun> isn*t <adjective>|the <singular-noun> <adjective>, and <subject-pronoun> <adverb> <verb> <singular-noun> <adj-phrase>
 
-prep-sentence -><preposition> <noun>, <noun> <be> <adjective>
 
 
-#####SUBJECT#####
+
+#####(3)SUBJECT#####
 subject -><proper-noun>|<subject-pronoun>|<singular>|<singular> <preposition> <singular>
 
 
 
 
-#####ADJECTIVE#####
+#####(4)ADJECTIVE#####
 adjective ->little|black|shiny|oiled|polished|heated|big|tragic|gay|yellow|hungry|bright|wide|repaired|hot|long|blue|careful|thin|wiry|green|cool|funny|warm|covered|painted|short|clothed|closed|black|red|opened|afraid|tame|upholstered|tall|gentle
 
 adjectified-verb ->appreciative
@@ -87,19 +111,23 @@ four-the-adjs ->the|<possessive>|four|the <some-adjectives> <possessive> <some-a
 
 
 
-#####VERB#####
+#####(5)VERB#####
 verb-1 ->has|is|is proud of|makes
 
 verb-2 ->is|keeps <object>|keeps it
 
 verb ->does|hates|likes|operates|sends|makes
 
-verb-plural ->have|operate|find|seek|make|put|do|hear|run
+verb-plural -><for-verb>|<not-for-verb>
+
+for-verb ->run|operate|search
+
+not-for-verb ->have|find|seek|make|put|hear
 
 
 
 
-#####POSSESSIVE#####
+#####(6)POSSESSIVE#####
 possessive ->his|its|her
 
 plural-possessive ->their
@@ -107,7 +135,7 @@ plural-possessive ->their
 
 
 
-#####NOUN##### 
+#####(7)NOUN##### 
 noun -> <num-nouns>|<plural-noun>|<plural-num-nouns>|<a-noun>|<some-nouns>|<possessive> <singular-noun>|<subject-pronoun>|<proper-noun>|<singular-noun>
 
 proper-noun ->Engineer Small|Smith|Yemi|President|Macpherson
@@ -148,13 +176,14 @@ combined-noun -><singular-noun> <singular-noun>
 
 
 
-#####PREPOSITION#####
+
+#####(8)PREPOSITION#####
 preposition ->under|in|beside|behind|below|above|on
 
 
 
 
-#####OBJECT#####
+#####(9)OBJECT#####
 object -><proper-noun>|<singular>|<plural>|<singular> <preposition> <singular>
 
 maybe-objects ->, <object> <maybe-objects>|
@@ -162,11 +191,14 @@ some-objects -><object>|<object><maybe-objects> and <object>|<object><maybe-obje
 
 
 
-######ADVERB######
+
+######(10)ADVERB######
 adverb ->never|seldom|rarely|usually never|no longer
 
 
-#####MISCELLANEOUS######
+
+
+#####(11)MISCELLANEOUS######
 where ->nowhere|anywhere|everywhere|elsewhere
 
 prefix ->Mr.|Mrs.|Miss|Ms.|Dr.

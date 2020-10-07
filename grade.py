@@ -16,7 +16,7 @@ def grade():
     """
     component1.grade()
     component2.grade()
-    #component4.grade()
+    component4.grade()
     component5.grade()
     component6.grade()
     component7.grade()

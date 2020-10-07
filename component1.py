@@ -5,6 +5,7 @@ def component1a():
   
     for i in range(5):
       output = engine.generate(start_symbol_name="NO_CORPUS", debug=False) 
+      output = output.capitalize()
       print(f"{i} {output}")
 
 
@@ -13,6 +14,7 @@ def component1b():
     
     for i in range(5):
       output = engine.generate(start_symbol_name="YES_CORPUS", debug=False) 
+      output = output.capitalize()
       print(f"{i} {output}")
 
 
@@ -20,7 +22,8 @@ def component1c():
     engine = GrammarEngine(file_path="grammars/c1_grammar.txt")
     
     for i in range(5):
-      output = engine.generate(start_symbol_name="MY_CORPUS", debug=False) 
+      output = engine.generate(start_symbol_name="MY_CORPUS", debug=False)
+      output = output.capitalize() 
       print(f"{i} {output}\n")
 
 
@@ -28,7 +31,8 @@ def component1d():
     engine = GrammarEngine(file_path="grammars/c1_grammar.txt")
     
     for i in range(3):
-      output = engine.generate(start_symbol_name="PARAGRAPH", debug=False) 
+      output = engine.generate(start_symbol_name="PARAGRAPH", debug=False)
+      
       print(f"{i} {output}\n")
 
 

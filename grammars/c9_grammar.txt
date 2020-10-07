@@ -1,2 +1,43 @@
+#We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
 
+sentence -> We the <people> of <country @country>, in Order to <verb-phrase>, <verb-phrase>, <verb-phrase>, <verb-phrase>, <verb-phrase>, and <verb-phrase>, do <longer-verb-phrase> for the <@country> of <random>.
 
+people ->People|Ogres|Girls|Boys|Rappers|Students|Nurses|Doctors|Princesses|Warriors|$pokemon.txt
+
+country ->the United States|South Korea|Finland|Germany|Arendelle|Wakanda|Atlantis|$countries.txt
+
+verb-phrase -><verb> a <comparative> <adjective> <noun>|<verb> <noun>|<for-verb> for the <adjective> <noun>|<verb> the <adjective> <noun>|<verb> the <noun> of <noun> to ourselves and our <noun>|<verb-prep-phrase>
+
+verb-prep-phrase -><verb> <noun> <preposition> <singular-plural-noun-phrase>
+
+singular-plural-noun-phrase -><singular-noun-phrase>|<plural-noun-phrase>
+
+singular-noun-phrase ->a <a-noun>|an <an-noun>|<noun>
+
+plural-noun-phrase ->the <some-nouns>|<some-nouns>
+
+longer-verb-phrase -><verb> and <verb> <pointer> <noun>
+
+pointer ->this|that
+
+comparative ->more|less
+
+preposition ->under|in|beside|behind|below|above|on
+
+some-nouns -><noun><maybe-nouns>, and <noun>|<noun> and <noun>
+
+maybe-nouns ->, <noun><maybe-nouns>| 
+
+verb ->form|establish|insure|promote|secure|ordain|have|operate|find|make|put|hear|<for-verb>
+
+for-verb ->provide|seek|search|run
+
+noun -><a-noun>|<an-noun>
+
+a-noun ->Justice|Tranquility|Defence|Welfare|Blessing|Liberty|Posterity|Constitution|Union|Procrastination
+
+an-noun ->Unrest|Unbelief|Iceberg|Icon|Idea|Idleness|Idiocy|Imagination|Immortality|Inclusion|Earth|Escapism
+
+adjective ->perfect|domestic|common|general|$adjectives.txt
+
+random ->$gemstones.txt|$art_isms.txt|books.txt

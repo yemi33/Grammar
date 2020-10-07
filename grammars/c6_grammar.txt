@@ -38,13 +38,13 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 1_INTRO_DIALOGUE -><@BOY>\nAre you ready for this?\n\n<@GIRL>\n<AGREE>\n\n<@BOY>\nAlright, here we go.\n
 
-1_MIDDLE_DIALOGUE -><@BOY>\n<RIGHTWAY?>\n\n<@GIRL>\n<CONFIRMATION>\n\n<@BOY>\n<@NAVIGATION>, really?\n\n<@GIRL>\nJust keep walking!\n 
+1_MIDDLE_DIALOGUE -><@BOY>\n<RIGHTWAY?>\n\n<@GIRL>\n<CONFIRMATION>\n\n<@BOY>\n(apprehensively)\n<@NAVIGATION>, really?\n\n<@GIRL>\nJust keep walking!\n 
 
 1_END_ACTION -><@GIRL> and <@BOY> walk towards the <WAY @WAY1>.\n
 
-1_END_DIALOGUE -><@BOY>\n<SCARE>\n\n<@GIRL>\n<SHOCK>
+1_END_DIALOGUE -><@BOY>\n(in a scary voice)\n<SCARE>\n\n<SCARE_SOUND>\n\n<@GIRL>\n<SHOCK>
 
-
+SCARE_SOUND -> SCREECH|CLASH|DUN-DUN-DUN-DUUUNNN
 
 #Scene 2: Girl and Boy enter the pathway, and end up touching something they shouldn't have. 
 
@@ -54,13 +54,13 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 2_ACTION -><@BOY> and <@GIRL> decide to explore <@WAY1> which is hidden under <@BUILDING>. They spot something.\n
 
-2_INTRO_DIALOGUE -><@BOY>\nBoy...why haven't we seen this before? Carleton should bring THIS up during NSW.\n\n<@GIRL>\nShh!! What is that?\n\n<@BOY>\nIt's a <OBJECT @OBJECT>!\n\n<@GIRL>\n<EXPLORE>.\n 
+2_INTRO_DIALOGUE -><@BOY>\nBoy...why haven't we seen this before? Carleton should bring THIS up during NSW.\n\n<@GIRL>\n(quietly)\nShh!! What is that?\n\n<@BOY>\nIt's a <OBJECT @OBJECT>!\n\n<@GIRL>\n(mysteriously)\n<EXPLORE>\n 
 
-2_MIDDLE_DIALOGUE -><@BOY>\nbruhh..this is so cool. What is a <@OBJECT> doing down here?\n\n<@GIRL>\nI have no idea..hey! I see a <OBJECT @OBJECT2> too!\n\n<@BOY>\n<APPREHENSION>\n
+2_MIDDLE_DIALOGUE -><@BOY>\nbruhh..this is so cool. What is a <@OBJECT> doing down here?\n\n<@GIRL>\nI have no idea..hey! I see a <OBJECT @OBJECT2> too!\n\n<@BOY>\n(disappointed)\n<APPREHENSION>\n
 
 2_END_ACTION -> <@GIRL> fidgets with the <@OBJECT>. <@BOY> looks around to see if there's anything else.\n
 
-2_END_DIALOGUE -> <@GIRL>\nHey, do you see that? \n\n<@BOY>\nWhat?\n\n<@GIRL>\n<@OBJECT> is glowing...or shall I say, burning?\n\n<@BOY>\n<WARNING>\n\n<@GIRL>\nDon't be a coward; we got this.\n\n<@BOY>\n<WORRIED>...\n\n<@GIRL>\nBut I already touched it! Hehe. Oh wait. Something's wrong.\n\n<@BOY> and <@GIRL>\nAhhhh!!
+2_END_DIALOGUE -> <@GIRL>\nHey, do you see that? \n\n<@BOY>\nWhat?\n\n<@GIRL>\n<@OBJECT> is glowing...or shall I say, burning?\n\n<@BOY>\n<WARNING>\n\n<@GIRL>\nDon't be a coward; we got this.\n\n<@BOY>\n<WORRIED>...\n\n<@GIRL>\nBut I already touched it! Hehe. Oh wait. Something's wrong.\n\n<@BOY> and <@GIRL>\n(both screaming on top of their lungs)\nAhhhh!!
 
 
 
@@ -73,7 +73,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 3_ACTION ->\n<@BOY> and <@GIRL> feel themselves gently landing on the ground.\n
 
-3_INTRO_DIALOGUE -><@BOY>\nOkay, where the heck are we??I told you we should have left <@OBJECT> alone!!\n\n<@GIRL>\nShh!! We'll be fine, <@BOY>. <ASSURANCE>.\n\n<@BOY>\nIf we get outta here, that is, make it out alive, I just want to say...I..well..I sort of..I felt.. \n\n<@GIRL>\nLook! Come this way!\n\n<@BOY>\nAnd..nevermind.
+3_INTRO_DIALOGUE -><@BOY>\n(angrily)\nOkay, where the heck are we??I told you we should have left <@OBJECT> alone!!\n\n<@GIRL>\nShh!! We'll be fine, <@BOY>. <ASSURANCE>.\n\n<@BOY>\n(fidgeting)\nIf we get outta here, that is, make it out alive, I just want to say...I..well..I sort of..I felt.. \n\n<@GIRL>\nLook! Come this way!\n\n<@BOY>\nAnd..nevermind.
 
 3_ACTION2 ->\n<@GIRL> walks into a secret passage, marked by <@SOMETHING>?\n
 
@@ -81,7 +81,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 3_MIDDLE_ACTION -> <@GIRL> points at a door. The door is rusty, with a faint smell of..shall I say, <SMELL @SMELL>?\n
 
-3_END_DIALOGUE -> <@GIRL>\nHey, do you see that?\n\n<@BOY>\nWhat?\n\n<@GIRL>\nThere is a door..and I don't know why, but I feel like it's calling out to me.\n\n<@BOY>\nOh no nono, You're not doing that.\n\n<@GIRL>\nIt's calling out to me..\n\n<@BOY>\n<WORRIED>\n\n<@GIRL>\nOkay fine. Let's go back. I just realized Halloween doesn't stop professors from assigning us homework.. and that I have a paper due on Wednesday.\n\n<@BOY>\nSee I told you. Let's slowly find our way back...\n
+3_END_DIALOGUE -> <@GIRL>\nHey, do you see that?\n\n<@BOY>\nWhat?\n\n<@GIRL>\n(in a haunted way)\nThere is a door..and I don't know why, but I feel like it's calling out to me.\n\n<@BOY>\nOh no nono, You're not doing that.\n\n<@GIRL>\nIt's calling out to me..\n\n<@BOY>\n<WORRIED>\n\n<@GIRL>\n(back to her senses)\nOkay fine. Let's go back. I just realized Halloween doesn't stop professors from assigning us homework.. and that I have a paper due on Wednesday.\n\n<@BOY>\nSee I told you. Let's slowly find our way back...\n
 
 3_END_SOUND -> *THUD*|*PSHHHHHH*|*CHOMP*|*RUMBLE*
 
@@ -95,9 +95,9 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 4_ACTION ->\n<@BOY> and <@GIRL> feel their bodies get paralyzed as they come face to face with the <GHOST @GHOST>.\n
 
-4_INTRO_DIALOGUE -><@GHOST>\nWhat are you two fools doing in here...DON'T YOU KNOW THIS IS FORBIDDEN GROUND?\n\n<@GIRL>\nWho are you?? And we want nothing from you. We're just..well..bored students.\n\n<@GHOST>\nI am the <@GHOST>. And I have been making sure Carleton is well taken care of since 2019.\n\n<@BOY>\n(mumbling to himself)\nOh. Well. That's rather recent.\n\n<@GHOST>\nQUIET!! I will not bare one more second of this nonsense.\n\n<@BOY>\nWell, okay. I guess then we should thank you, Mr. or Mrs., or should I say professor <@GHOST>?\n\n<@GHOST>\nGhosts don't have gender you fool! And don't call me professor!\n 
+4_INTRO_DIALOGUE -><@GHOST>\n(loudly)\nWhat are you two fools doing in here...DON'T YOU KNOW THIS IS FORBIDDEN GROUND?\n\n<@GIRL>\nWho are you?? And we want nothing from you. We're just..well..bored students.\n\n<@GHOST>\nI am the <@GHOST>. And I have been making sure Carleton is well taken care of since 2019.\n\n<@BOY>\n(mumbling to himself)\nOh. Well. That's rather recent.\n\n<@GHOST>\nQUIET!! I will not bare one more second of this nonsense.\n\n<@BOY>\nWell, okay. I guess then we should thank you, Mr. or Mrs., or should I say professor <@GHOST>?\n\n<@GHOST>\n(angrily)\nGhosts don't have gender you fool! And don't call me professor!\n 
 
-4_MIDDLE_DIALOGUE -><@BOY>\nAlright well. I'll just call you by the first name then, like we do for most Carleton professors. Hey we just had one question. Where are we? We're still in <@BUILDING>, right?\n\n<@GHOST>\nYou are currently at the Rec.\n\n<@BOY>\nSay what now? Alright, now I'm leaving. Thanks for the direction, <@GHOST>. We'll get going now. <@GIRL>! Let's go now!\n
+4_MIDDLE_DIALOGUE -><@BOY>\nAlright well. I'll just call you by the first name then, like we do for most Carleton professors. Hey we just had one question. Where are we? We're still in <@BUILDING>, right?\n\n<@GHOST>\n(matter-of-fact-ly)\nYou are currently at the Rec.\n\n<@BOY>\nSay what now? Alright, now I'm leaving. Thanks for the direction, <@GHOST>. We'll get going now. <@GIRL>! Let's go now!\n
 
 4_MIDDLE_ACTION -> SILENCE.\n
 
@@ -113,7 +113,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 5_MIDDLE -><5_MIDDLE_DIALOGUE>\n<5_MIDDLE_ACTION>
 5_END -><5_END_DIALOGUE>\n<5_END_SOUND>
 
-5_INTRO_DIALOGUE ->\n<@BOY>\nNO!!!!!!\n
+5_INTRO_DIALOGUE ->\n<@BOY>\n(frantically)\nNO!!!!!!\n
 
 5_ACTION ->As the door is about to close, taking <@GIRL> with it, <@BOY> jumps into the gap like a <HERO>. He grabs her by the <BODY>, and turns her around.\n
 
@@ -121,7 +121,7 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 5_MIDDLE_ACTION -> <@BOY> notices the glowing <@OBJECT> glowing even brighter every time <@GIRL> would say atrocious things like not finishing her essay.\n  
 
-5_END_DIALOGUE -> <@BOY>\nThat's it. That thing is making you lose your mind. And you know what I'm gonnat do? I'm gonna break that!!!\n
+5_END_DIALOGUE -> <@BOY>\n(determined)\nThat's it. That thing is making you lose your mind. And you know what I'm gonnat do? I'm gonna break that!!!\n
 
 5_END_SOUND -> *SMASH!*|*RIP!*|*CLANG!*
 
@@ -135,19 +135,19 @@ SCENE6 -><6_SCENE_HEADING>\n<6_CONTENT>
 
 6_ACTION ->\n<@BOY> and <@GIRL> find themselves outside <@BUILDING>.\n 
 
-6_INTRO_DIALOGUE -><@BOY>\nWe're back..We're BACK!!\n\n<@GIRL>\nHuh...?\n\n<@BOY>\nWe're free!\n\n<@GIRL>\nWe're back? No way!\n
+6_INTRO_DIALOGUE -><@BOY>\n(excitedly)\nWe're back..We're BACK!!\n\n<@GIRL>\nHuh...?\n\n<@BOY>\nWe're free!\n\n<@GIRL>\nWe're back? No way!\n
 
 6_MIDDLE_DIALOGUE -><@BOY>\n<@GIRL>, let's get back to our dorms. We had enough fun for today...\n\n<@GIRL>\nAlright..oh and also were you trying to tell me something back in there? You were trying to tell me something.\n
 
 6_MIDDLE_ACTION -> <@BOY> blushes.\n 
 
-6_END_DIALOGUE -> <@BOY>\nWell..I was going to say..I really..<ASKINGOUT>\n\n<@GIRL>\n<REPLY>\n
+6_END_DIALOGUE -> <@BOY>\n(shyly)\nWell..I was going to say..I really..<ASKINGOUT>\n\n<@GIRL>\n<REPLY>\n
 
 6_END_SOUND -> ****ZAP!****\n 
 
 6_END_ACTION -> <@BOY> feels someone shaking him. His eyes slowly open. It's the library.\n
 
-6_END_DIALOGUE2 -> <@GIRL>\nYou good?\n\n<@BOY>\nWhat...\n\n<@GIRL>\nYou've been sleeping for two hours, man.\n
+6_END_DIALOGUE2 -> <@GIRL>\nYou good?\n\n<@BOY>\n(confused)\nWhat...\n\n<@GIRL>\nYou've been sleeping for two hours, man.\n
 
 FINALE -> And just like that, <@BOY> felt bubbles in his stomach for sleeping while bending over the desk--quite the ending for a spooky Halloween night.\n
 

@@ -1,4 +1,4 @@
-LYRIC -> My sweet <nickname @nickname> <phrase>. My heart is full because <phrase>. <@nickname> you are my greatest <noun>, my most <adj> <noun2>. What can I do without you my most <adj> <@nickname>?
+LYRIC -> My sweet <nickname @nickname>, <phrase>. My heart is full because <phrase>. <@nickname> you are my greatest <noun>, my most <adj> <noun2>. What can I do without you my most <adj> <@nickname>?
 
 INDIRECT_REFERENCE -> My full name is <full_name>, but you can call me <@first_name>.
 
@@ -20,4 +20,4 @@ phrase ->you are the reason I <verb_phrase>|you are the only one I <verb_phrase>
 noun ->joy|love|happiness|fulfillment
 adj ->beloved|sought after|cherished|prized|radiant
 noun2 ->jewel|flower|morning|charm
-verb_phrase ->live for|love|breathe for|wake up in the morning for|sing for
+verb_phrase ->live for|love|breathe for|wake up in the morning for|sing
